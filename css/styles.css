@@ -121,11 +121,15 @@ body {
 }
 
 .site-top-dots .item {
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 .site-top-dots .item:last-child {
     margin-right: 0;
+}
+
+.site-top-dots .item-adress {
+  margin-right: 30px;
 }
 
 .site-top-link {
@@ -241,6 +245,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+  background-color: #F5F4FA;;
 }
 
 .spacials-tittle {
@@ -296,10 +301,7 @@ body {
   flex-basis: calc(( 100% - 30px * 2) / 3);
 }
 
-.team,
-.presentation,
-.spacials,
-.client {
+.team {
   background-color: #f5f4fa;
   padding-bottom: 94px;
 }
@@ -457,6 +459,14 @@ body {
   flex-basis: calc((100% - 30px * 2) / 3)
 }
 
+.portfolio-list:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.portfolio-box {
+  text-decoration: none;
+}
+
 .card-item {
   padding: 20px 24px;
   border-left: 1px solid #EEEEEE;
@@ -575,14 +585,15 @@ body {
 
 .footer-box {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-links-box {
-  margin: auto;
   margin-left: 70px;
 }
 
 .footer-tittle {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
