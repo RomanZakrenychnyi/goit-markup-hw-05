@@ -516,21 +516,11 @@ body {
   padding-bottom: 16px;
   margin-bottom: 34px;
   display: block;
+
+
 }
 
-.overlay-wrapper {
-  position: relative;
-}
 
-.overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: #212121;
-  transform: translateY(100%);
-}
 
 .card-item {
   padding: 20px 24px;
