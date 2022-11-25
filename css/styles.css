@@ -152,6 +152,35 @@ body {
 
 .site-top-link.current {
   color: var(--blue);
+  position: relative;
+}
+
+.site-top-link.current::after {
+  position: absolute;
+  bottom: -1px;
+  left: 0px;
+
+  content: "";
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--blue)
+}
+
+.item {
+  position: relative;
+}
+
+.site-top-link:hover::after {
+  position: absolute;
+  bottom: -1px;
+  left: 0px;
+  
+  content: "";
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--blue)
 }
 
 .site-top-email,
