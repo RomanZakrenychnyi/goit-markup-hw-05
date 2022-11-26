@@ -534,6 +534,10 @@ body {
   background-color: var(--blue);
 }
 
+.overlay-text:hover {
+  transform: translateY(0);
+}
+
 .card-item {
   padding: 20px 24px;
   border-left: 1px solid #EEEEEE;
