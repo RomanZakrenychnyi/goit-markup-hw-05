@@ -741,6 +741,8 @@ body {
   height: 581px;
   left: 50%;
   top: 50%;
+  border-radius: 4px;
+
   transform: translate(-50%, -50%) scale(1);
   background: #FFFFFF;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -750,6 +752,7 @@ body {
   position: absolute;
   top: 14px;
   right: 14px;
-  border-radius: 50%;
+  border-radius: 4px;
   padding: 6px;
+  border-radius: 50%;
 }
