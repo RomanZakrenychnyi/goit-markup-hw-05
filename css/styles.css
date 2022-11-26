@@ -779,9 +779,14 @@ body {
 
 .button-close {
   position: absolute;
-  top: 14px;
-  right: 14px;
-  border-radius: 4px;
-  padding: 6px;
+  top: 8px;
+  right: 8px;
   border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+
+  fill: rgba(0, 0, 0, 1);
+  background-color: var(--white);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
