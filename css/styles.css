@@ -784,7 +784,7 @@ body {
   border-radius: 50%;
   width: 30px;
   height: 30px;
-  padding: 6px;
+  padding: 6px; 
 
   fill: rgba(0, 0, 0, 1);
   background-color: var(--white);
