@@ -786,7 +786,7 @@ body {
   height: 30px;
   padding: 6px; 
 
-  fill: rgba(0, 0, 0, 1);
+  fill: var(--black);
   background-color: var(--white);
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
