@@ -723,6 +723,7 @@ body {
 }
 
 .modal {
+  position: absolute;
   width: 528px;
   height: 581px;
   left: 536px;
