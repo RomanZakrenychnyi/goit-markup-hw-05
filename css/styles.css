@@ -670,6 +670,8 @@ body {
   font-style: normal;
   color: var(--black-footer);
   text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footr-email:hover,
@@ -686,6 +688,8 @@ body {
   font-style: normal;
   color: var(--black-footer);
   text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footr-telefone:hover,
@@ -727,8 +731,8 @@ body {
   height: 44px;
   border-radius: 50%;
   fill: var(--white);
-  background-color: rgba(255, 255, 255, 0.1);;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link:hover,
